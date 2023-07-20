@@ -1,0 +1,123 @@
+/* Logo Styles */
+.logo {
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+    padding-left: 20px;
+}
+
+/* Nav Styles */
+.inline-block {
+    display: inline;
+    padding: 20px;
+    vertical-align: top;
+    margin-left: auto;
+    width: 100%;
+    text-align: right;
+    padding-right: 4%;
+}
+
+li {
+    display: inline;
+    font-size: 22px;
+    padding: 1%;
+}
+
+.section1 {
+    height: 100%;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    font-size: 20px;
+}
+
+h1 {
+    margin-bottom: -10px;
+}
+
+.section2 {
+    height: 100%;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    font-size: 20px;
+    padding: 15px;
+}
+
+.row {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100%;
+    width: 100%;
+    flex-direction: column;
+    padding: 20px;
+}
+
+.column1 {
+    justify-content: center;
+    align-items: center;
+    font-style: normal;
+    padding: 10px;
+    display: flex;
+}
+
+.column2 {
+    font-style: normal;
+    padding: 10px;
+    display: flex;
+}
+
+.fip {
+    background-image: url("../images/FIP_thumbnail.PNG");
+    height: 386px;
+    width: 688px;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    position: relative;
+}
+
+.fcc {
+    background-image: url("../images/FCC_thumbnail.PNG");
+    height: 386px;
+    width: 688px;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    position: relative;
+}
+
+.cb {
+    background-image: url("../images/CB_thumbnail.PNG");
+    height: 386px;
+    width: 688px;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    position: relative;
+}
+
+.wp {
+    background-image: url("../images/WP_thumbnail.PNG");
+    height: 386px;
+    width: 688px;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    position: relative;
+}
+
+.text-block {
+    position: absolute;
+    bottom: 0px;
+    background-color: rgba(0, 0, 0, 0.5);
+    color: white;
+    padding-left: 20px;
+    padding-right: 20px;
+    width: 94.4%;
+}
